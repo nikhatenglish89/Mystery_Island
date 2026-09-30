@@ -2,13 +2,17 @@
 // are cached so the game can be replayed without a connection. Bump VERSION
 // whenever game files change so players get the update.
 
-const VERSION = 'mystery-island-v1.0.0';
+const VERSION = 'mystery-island-v1.0.1';
 
 const FILES = [
   './',
   'index.html',
   'manifest.webmanifest',
   'assets/ui/icon.svg',
+  'assets/ui/icon-192.png',
+  'assets/ui/icon-512.png',
+  'assets/ui/icon-maskable-512.png',
+  'assets/ui/apple-touch-icon.png',
   'css/base.css',
   'css/map.css',
   'css/game.css',
