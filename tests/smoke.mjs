@@ -35,7 +35,7 @@ async function solve(level, ch) {
   if (eng === 'number' || eng === 'pattern-puzzle' || (eng === 'science-choice' && ch.type !== 'order')) {
     await page.locator('.choice').nth(ch.answer).click();
   } else if (eng === 'science-choice') {
-    for (const item of ch.items) await page.locator('.tile:not([disabled])', { hasText: item }).first().click();
+    for (const item of ch.items) await page.locator('.tile:not([disabled])').getByText(item, { exact: true }).first().click();
   } else if (eng === 'word-builder') {
     for (const c of ch.word) await page.locator('.tile.letter:not([disabled])', { hasText: new RegExp('^' + c + '$') }).first().click();
   } else if (eng === 'memory-sequence') {
