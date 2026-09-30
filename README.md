@@ -2,6 +2,8 @@
 
 Mystery_Island is a child-friendly HTML5 adventure game in which players explore islands, solve educational mini-games, collect rewards and unlock a treasure story. The game is designed as a browser application that can be hosted through an existing WordPress website. Core gameplay must not depend on a backend, database server or paid API.
 
+**Play it:** https://nikhatenglish89.github.io/Mystery_Island/ (GitHub Pages; the root page opens `game/`).
+
 This repository contains the complete MVP v1.0 described in `docs/` (PRD and App Flow, rev 1.1).
 
 ## What's in the game
