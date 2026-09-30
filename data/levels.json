@@ -1,0 +1,470 @@
+{
+ "version": 1,
+ "bands": [
+  "explorer",
+  "adventurer",
+  "master"
+ ],
+ "worlds": [
+  {
+   "id": "pb",
+   "name": "Pirate Beach",
+   "emoji": "🏖️",
+   "theme": "Shipwreck / beach",
+   "learning": "Counting, basic maths and observation",
+   "description": "A sunny beach with a wrecked pirate ship. Count, add and spot clues!",
+   "color": "#f2c14e",
+   "mapPiece": "Map piece 1",
+   "levels": [
+    {
+     "id": "pb-01",
+     "index": 1,
+     "title": "Shell Seeker",
+     "engine": "object-hunt",
+     "clue": "🐚",
+     "intro": "Kiki spotted shiny shells on the sand. Can you find them all?"
+    },
+    {
+     "id": "pb-02",
+     "index": 2,
+     "title": "Coin Counting",
+     "engine": "number",
+     "clue": "🪙",
+     "intro": "Pirates dropped coins on the beach. Let us count them!"
+    },
+    {
+     "id": "pb-03",
+     "index": 3,
+     "title": "Sandcastle Sums",
+     "engine": "number",
+     "clue": "🏰",
+     "intro": "The tide is coming. Add up the sandcastle bricks!"
+    },
+    {
+     "id": "pb-04",
+     "index": 4,
+     "title": "Treasure Takeaway",
+     "engine": "number",
+     "clue": "🧺",
+     "intro": "Some treasure washed away. How much is left?"
+    },
+    {
+     "id": "pb-05",
+     "index": 5,
+     "title": "Spot the Sailor",
+     "engine": "spot-difference",
+     "clue": "⛵",
+     "intro": "Two ship pictures look the same, but they are not. Find the differences!"
+    },
+    {
+     "id": "pb-06",
+     "index": 6,
+     "title": "Shipwreck Patterns",
+     "engine": "pattern-puzzle",
+     "clue": "🚢",
+     "intro": "The old ship has a pattern lock. Finish the pattern to open it."
+    },
+    {
+     "id": "pb-07",
+     "index": 7,
+     "title": "Bigger or Smaller",
+     "engine": "number",
+     "clue": "⚖️",
+     "intro": "Weigh the treasure piles. Which one is bigger?"
+    },
+    {
+     "id": "pb-08",
+     "index": 8,
+     "title": "Parrot Path",
+     "engine": "maze-path",
+     "clue": "🦜",
+     "intro": "Help the parrot find the golden key on the beach maze!"
+    },
+    {
+     "id": "pb-09",
+     "index": 9,
+     "title": "Crab Conga",
+     "engine": "memory-sequence",
+     "clue": "🦀",
+     "intro": "The crabs are dancing. Copy their moves in the same order!"
+    },
+    {
+     "id": "pb-10",
+     "index": 10,
+     "title": "Captain's Chest",
+     "engine": "number",
+     "clue": "🧰",
+     "intro": "The captain's chest has a number lock. Solve the sums to open it!"
+    }
+   ]
+  },
+  {
+   "id": "mj",
+   "name": "Mystery Jungle",
+   "emoji": "🌴",
+   "theme": "Jungle / river",
+   "learning": "Words, spelling, patterns and logic",
+   "description": "A misty jungle full of riddles, rivers and hidden things.",
+   "color": "#3fa34d",
+   "mapPiece": "Map piece 2",
+   "levels": [
+    {
+     "id": "mj-01",
+     "index": 1,
+     "title": "Animal Words",
+     "engine": "word-builder",
+     "clue": "🐒",
+     "intro": "Jungle animals hid behind letters. Build their names!"
+    },
+    {
+     "id": "mj-02",
+     "index": 2,
+     "title": "Vine Patterns",
+     "engine": "pattern-puzzle",
+     "clue": "🌿",
+     "intro": "The vines grow in patterns. Finish each one to swing across!"
+    },
+    {
+     "id": "mj-03",
+     "index": 3,
+     "title": "Hidden Fruits",
+     "engine": "object-hunt",
+     "clue": "🍎",
+     "intro": "Kiki is hungry! Find the hidden fruits in the leaves."
+    },
+    {
+     "id": "mj-04",
+     "index": 4,
+     "title": "Spelling River",
+     "engine": "word-builder",
+     "clue": "🌊",
+     "intro": "Stepping stones with letters cross the river. Spell the food words!"
+    },
+    {
+     "id": "mj-05",
+     "index": 5,
+     "title": "Odd One Out",
+     "engine": "pattern-puzzle",
+     "clue": "🧐",
+     "intro": "One of these things does not belong. Can you spot it?"
+    },
+    {
+     "id": "mj-06",
+     "index": 6,
+     "title": "Trail Maze",
+     "engine": "maze-path",
+     "clue": "🐒",
+     "intro": "The jungle trail twists and turns. Help the monkey reach the banana!"
+    },
+    {
+     "id": "mj-07",
+     "index": 7,
+     "title": "Rhyme Time",
+     "engine": "pattern-puzzle",
+     "clue": "🎵",
+     "intro": "The parrots sing in rhymes. Find the word that rhymes!"
+    },
+    {
+     "id": "mj-08",
+     "index": 8,
+     "title": "Bug Difference",
+     "engine": "spot-difference",
+     "clue": "🐛",
+     "intro": "Two jungle pictures hide tiny differences. Find them all!"
+    },
+    {
+     "id": "mj-09",
+     "index": 9,
+     "title": "Letter Patterns",
+     "engine": "pattern-puzzle",
+     "clue": "🔤",
+     "intro": "Ancient stones show letter patterns. Which letter comes next?"
+    },
+    {
+     "id": "mj-10",
+     "index": 10,
+     "title": "Jungle Chief",
+     "engine": "word-builder",
+     "clue": "🪶",
+     "intro": "The Jungle Chief asks you to spell the last secret words."
+    }
+   ]
+  },
+  {
+   "id": "cc",
+   "name": "Crystal Cave",
+   "emoji": "💎",
+   "theme": "Cave / crystals",
+   "learning": "Memory and sequences",
+   "description": "Glowing crystals hum in the dark. Remember the order to light the way!",
+   "color": "#8e6bd8",
+   "mapPiece": "Map piece 3",
+   "levels": [
+    {
+     "id": "cc-01",
+     "index": 1,
+     "title": "Crystal Echo",
+     "engine": "memory-sequence",
+     "clue": "🔔",
+     "intro": "The crystals ring in order. Listen, watch and repeat!"
+    },
+    {
+     "id": "cc-02",
+     "index": 2,
+     "title": "Glow Sequence",
+     "engine": "pattern-puzzle",
+     "clue": "✨",
+     "intro": "Numbers glow on the cave wall. Which number comes next?"
+    },
+    {
+     "id": "cc-03",
+     "index": 3,
+     "title": "Gem Hunt",
+     "engine": "object-hunt",
+     "clue": "💎",
+     "intro": "Real gems hide among the sparkles. Can you find them?"
+    },
+    {
+     "id": "cc-04",
+     "index": 4,
+     "title": "Missing Number",
+     "engine": "number",
+     "clue": "🔢",
+     "intro": "A number fell off the cave door. Find the missing one!"
+    },
+    {
+     "id": "cc-05",
+     "index": 5,
+     "title": "Long Echo",
+     "engine": "memory-sequence",
+     "clue": "🎶",
+     "intro": "The echo is longer this time. Stay focused!"
+    },
+    {
+     "id": "cc-06",
+     "index": 6,
+     "title": "Cave Tunnel",
+     "engine": "maze-path",
+     "clue": "🦇",
+     "intro": "Follow the twisty tunnels to the crystal at the end."
+    },
+    {
+     "id": "cc-07",
+     "index": 7,
+     "title": "Crystal Differences",
+     "engine": "spot-difference",
+     "clue": "🔮",
+     "intro": "Two crystal caves look alike. Find what changed!"
+    },
+    {
+     "id": "cc-08",
+     "index": 8,
+     "title": "Pattern Lock",
+     "engine": "pattern-puzzle",
+     "clue": "🔒",
+     "intro": "A growing pattern locks the door. Find the rule!"
+    },
+    {
+     "id": "cc-09",
+     "index": 9,
+     "title": "Bat Signals",
+     "engine": "memory-sequence",
+     "clue": "🦇",
+     "intro": "The bats flash signals in the dark. Copy them!"
+    },
+    {
+     "id": "cc-10",
+     "index": 10,
+     "title": "Crystal Heart",
+     "engine": "pattern-puzzle",
+     "clue": "💜",
+     "intro": "The Crystal Heart mixes up every kind of pattern. You can do it!"
+    }
+   ]
+  },
+  {
+   "id": "at",
+   "name": "Ancient Temple",
+   "emoji": "🛕",
+   "theme": "Ancient mechanisms",
+   "learning": "Science, maths and logic",
+   "description": "Old machines and symbols guard the temple. Use science and logic!",
+   "color": "#d9822b",
+   "mapPiece": "Map piece 4",
+   "levels": [
+    {
+     "id": "at-01",
+     "index": 1,
+     "title": "Solar Symbols",
+     "engine": "science-choice",
+     "clue": "☀️",
+     "intro": "The temple ceiling shows the sky. Answer the star riddles!"
+    },
+    {
+     "id": "at-02",
+     "index": 2,
+     "title": "Temple Multiplication",
+     "engine": "number",
+     "clue": "✖️",
+     "intro": "Stone wheels turn when you solve the times tables."
+    },
+    {
+     "id": "at-03",
+     "index": 3,
+     "title": "Stone Sequences",
+     "engine": "pattern-puzzle",
+     "clue": "🪨",
+     "intro": "Carved numbers form a secret sequence. Which number is next?"
+    },
+    {
+     "id": "at-04",
+     "index": 4,
+     "title": "Nature's Secrets",
+     "engine": "science-choice",
+     "clue": "🌿",
+     "intro": "Temple gardens hold secrets about plants and animals."
+    },
+    {
+     "id": "at-05",
+     "index": 5,
+     "title": "Mechanism Maze",
+     "engine": "maze-path",
+     "clue": "⚙️",
+     "intro": "Slide through the old mechanism to reach the golden key."
+    },
+    {
+     "id": "at-06",
+     "index": 6,
+     "title": "Water and Weather",
+     "engine": "science-choice",
+     "clue": "💧",
+     "intro": "The water channel needs you to know how weather works."
+    },
+    {
+     "id": "at-07",
+     "index": 7,
+     "title": "Rune Differences",
+     "engine": "spot-difference",
+     "clue": "🗿",
+     "intro": "Two rune walls look alike. Find what changed!"
+    },
+    {
+     "id": "at-08",
+     "index": 8,
+     "title": "Riddle of Numbers",
+     "engine": "number",
+     "clue": "📜",
+     "intro": "The stone tablet asks number riddles. Read carefully!"
+    },
+    {
+     "id": "at-09",
+     "index": 9,
+     "title": "Body and Senses",
+     "engine": "science-choice",
+     "clue": "🧠",
+     "intro": "A statue asks how your body and senses work."
+    },
+    {
+     "id": "at-10",
+     "index": 10,
+     "title": "Temple Guardian",
+     "engine": "science-choice",
+     "clue": "🛡️",
+     "intro": "The Temple Guardian asks a bit of everything. Show what you know!"
+    }
+   ]
+  },
+  {
+   "id": "ti",
+   "name": "Treasure Island",
+   "emoji": "🏝️",
+   "theme": "Final adventure",
+   "learning": "Mixed skills and geography",
+   "description": "The final island. Read the map, follow the compass and open the treasure lock!",
+   "color": "#2b8fd9",
+   "mapPiece": "",
+   "levels": [
+    {
+     "id": "ti-01",
+     "index": 1,
+     "title": "Compass Rose",
+     "engine": "maze-path",
+     "clue": "🧭",
+     "intro": "Learn the compass! North is up. Follow the directions to the spot."
+    },
+    {
+     "id": "ti-02",
+     "index": 2,
+     "title": "Map Reading",
+     "engine": "science-choice",
+     "clue": "🗺️",
+     "intro": "Look at the island map and say which way things are."
+    },
+    {
+     "id": "ti-03",
+     "index": 3,
+     "title": "Lost Coins",
+     "engine": "number",
+     "clue": "🪙",
+     "intro": "Coins were lost all over the island. Solve the sums to get them back!"
+    },
+    {
+     "id": "ti-04",
+     "index": 4,
+     "title": "Island Words",
+     "engine": "word-builder",
+     "clue": "🔤",
+     "intro": "Build the words that describe the island."
+    },
+    {
+     "id": "ti-05",
+     "index": 5,
+     "title": "Continents and Oceans",
+     "engine": "science-choice",
+     "clue": "🌍",
+     "intro": "Kiki wants to know about our whole world. Answer her geography quiz!"
+    },
+    {
+     "id": "ti-06",
+     "index": 6,
+     "title": "Follow the Compass",
+     "engine": "maze-path",
+     "clue": "🧭",
+     "intro": "A longer trail of compass directions leads to buried treasure."
+    },
+    {
+     "id": "ti-07",
+     "index": 7,
+     "title": "Memory Locks",
+     "engine": "memory-sequence",
+     "clue": "🔐",
+     "intro": "The treasure gate remembers a secret order. Repeat it!"
+    },
+    {
+     "id": "ti-08",
+     "index": 8,
+     "title": "Treasure Trail",
+     "engine": "object-hunt",
+     "clue": "💰",
+     "intro": "Treasure is hidden among lookalikes. Find the real thing!"
+    },
+    {
+     "id": "ti-09",
+     "index": 9,
+     "title": "Secret Map",
+     "engine": "science-choice",
+     "clue": "📍",
+     "intro": "The secret map mixes geography and directions. Read it carefully!"
+    },
+    {
+     "id": "ti-10",
+     "index": 10,
+     "title": "The Treasure Lock",
+     "engine": "maze-path",
+     "clue": "🏆",
+     "intro": "The final lock needs a long compass path. Follow it to the treasure!"
+    }
+   ]
+  }
+ ]
+}

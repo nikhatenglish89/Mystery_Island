@@ -1,0 +1,35 @@
+/* Mobile is the base (portrait first). Tablet and desktop get more room. */
+@media (max-width: 380px) {
+  .level-grid, .shop-grid, .ach-grid { grid-template-columns: 1fr; }
+  .dash-stats { grid-template-columns: repeat(2, 1fr); }
+  .dash-worlds li { grid-template-columns: 7.5em 1fr auto; }
+  .world-node { min-width: 80px; padding: 6px; }
+  .world-node .wn-emoji { font-size: 1.8rem; }
+}
+@media (min-width: 600px) {
+  .page { padding: 20px 28px 32px; gap: 16px; }
+  .band-choices { grid-template-columns: repeat(3, 1fr); }
+  .level-grid { grid-template-columns: repeat(3, 1fr); }
+  .shop-grid, .ach-grid { grid-template-columns: repeat(3, 1fr); }
+  .dash-stats { grid-template-columns: repeat(6, 1fr); }
+  .choices { grid-template-columns: repeat(2, 1fr); }
+  .map-board { aspect-ratio: 16 / 10; }
+}
+@media (min-width: 900px) {
+  #game { border-radius: 28px; height: min(100dvh, 900px); margin-top: max(0px, calc((100dvh - 900px) / 2)); }
+  .level-grid { grid-template-columns: repeat(5, 1fr); }
+  .shop-grid, .ach-grid { grid-template-columns: repeat(4, 1fr); }
+  .choices-big { grid-template-columns: repeat(4, 1fr); max-width: 760px; }
+  .map-board { aspect-ratio: 18 / 9; }
+  .world-node .wn-emoji { font-size: 3rem; }
+  .choice:not(.band) { min-height: 96px; font-size: 2rem; }
+  .visual-grid { font-size: 2.8rem; max-width: 640px; }
+  .prompt { font-size: 2.1rem; }
+  .seq-cell { min-width: 76px; height: 84px; font-size: 2.6rem; }
+  .stage { gap: 18px; }
+}
+@media (orientation: landscape) and (max-height: 520px) {
+  .explore-scene, .map-board { min-height: 260px; }
+  .intro-clue { font-size: 3rem; }
+  .camp-scene { height: 180px; }
+}

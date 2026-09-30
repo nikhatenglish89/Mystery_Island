@@ -1,0 +1,98 @@
+{
+ "common": {
+  "continue": "Let's go!", "next": "Next", "back": "Back", "cancel": "Cancel", "ok": "OK", "start": "Start", "open": "Open",
+  "map": "Treasure Map", "parentArea": "Parent Area", "readAloud": "Read aloud", "on": "On", "off": "Off",
+  "starsOf": "{n} of {max} stars"
+ },
+ "hud": { "stars": "Stars", "coins": "Coins", "gems": "Gems" },
+ "errors": {
+  "noStorage": "Your browser is not letting this game save. You can still play, but your progress will not be kept when you close the page.",
+  "saveFailed": "Sorry, something went wrong saving your explorer. Please try again.",
+  "corruptTitle": "Saved game problem",
+  "corruptBody": "This explorer's saved data can't be read. A grown-up can fix this in the Parent Area by resetting the explorer."
+ },
+ "screens": {
+  "splash": { "tagline": "Explore islands. Solve puzzles. Find the treasure!", "soundNote": "Tap to start. This game has sound and a talking parrot." },
+  "profiles": {
+   "title": "Who is exploring today?", "add": "Add explorer", "resume": "Welcome back! Let's finish your level.",
+   "limitTitle": "Three explorers is the limit",
+   "limitBody": "Up to {max} explorers can share this device. A grown-up can remove or reset one in the Parent Area to make room."
+  },
+  "setup": {
+   "title": "Create your explorer", "nickLabel": "Your nickname", "nickPlaceholder": "e.g. Captain Sam",
+   "nickHelp": "Use a nickname, not your real name.", "bandLabel": "How old are you?", "avatarLabel": "Pick your explorer",
+   "avatarN": "Explorer {n}", "start": "Start Adventure", "errNick": "Please type a nickname.", "errBand": "Please pick your age group.",
+   "ages": "Ages {ages}",
+   "band": { "explorer": "Simple words and small numbers", "adventurer": "More variety and bigger challenges", "master": "Word problems and tricky logic" }
+  },
+  "tutorial": { "title": "Meet Kiki", "step": "{n} of {total}", "enter": "Enter Pirate Beach" },
+  "map": {
+   "title": "Treasure Map", "progress": "{done} of {total} levels done", "locked": "Locked",
+   "lockedHint": "Finish all 10 levels of {prev} to open this world.",
+   "lockedFinal": "Finish Ancient Temple and collect all four map pieces to reach Treasure Island.",
+   "pieces": "{n} of 4 map pieces", "next": "Next up: {level} in {world}", "continue": "Play",
+   "nav": "Explorer menu", "camp": "Camp", "awards": "Awards", "settings": "Settings", "switch": "Switch"
+  },
+  "world": { "levelN": "Level {n}", "ready": "Ready to play", "learning": "You will practise: {learning}." },
+  "intro": { "how": "How to play: {how}", "best": "Your best:" },
+  "explore": {
+   "find": "Look around! Tap the glowing thing to find your challenge.", "found": "You found it! Here comes the challenge...",
+   "clueAria": "Glowing clue. Tap to start the challenge", "propAria": "Something to look at"
+  },
+  "play": {
+   "hint": "Hint", "exit": "Leave", "round": "Question {n} of {total}", "finish": "Finish level",
+   "exitTitle": "Leave this level?", "exitBody": "You will lose your place in this level, but everything you have earned so far is safe.",
+   "exitYes": "Leave level", "exitNo": "Keep playing"
+  },
+  "reward": {
+   "title": "Level complete!", "coins": "{n} coins earned", "gems": "{n} gems earned", "replay": "Well done for playing again!",
+   "worldDone": "You finished {world}!", "mapPiece": "You won: {piece}", "unlocked": "{world} is now open!",
+   "newAch": "New awards!", "nextLevel": "Next level", "replayBtn": "Play again for more stars", "toTreasure": "Open the treasure!"
+  },
+  "ending": { "title": "You found the treasure!", "body": "You explored every world and solved every puzzle. You can replay any level to earn more stars." },
+  "camp": {
+   "title": "Explorer Camp", "sceneAria": "Your camp", "tab": { "outfit": "Outfits", "decor": "Camp items" },
+   "rareNote": "Gem items are rare. You win gems by finishing worlds and earning awards.",
+   "equip": "Wear", "unequip": "Take off", "place": "Place", "remove": "Remove", "full": "Your camp is full. Remove something first (max {max}).",
+   "needMore": "You need a few more to buy that.", "bought": "You got the {item}!", "newAch": "New award: {name}"
+  },
+  "awards": { "title": "Awards", "count": "{n} of {total} awards", "unlocked": "Unlocked!" },
+  "settings": {
+   "title": "Settings", "sound": "Sound effects", "soundHelp": "Beeps, cheers and tunes.", "voice": "Kiki's voice and read-aloud",
+   "voiceHelp": "Kiki talks and questions can be read to you.", "parentNote": "Grown-ups can find more options in the Parent Area."
+  },
+  "gate": {
+   "title": "Grown-ups only", "hold": "Press and hold", "help": "Press and hold the button for two seconds, then answer one question.",
+   "ask": "Type this number using digits: {words}", "inputAria": "Type the number", "wrong": "That was not right. Try this new one."
+  },
+  "dash": {
+   "title": "Parent Area", "intro": "Everything here is stored only on this device. Nothing is sent anywhere.", "none": "No explorers yet.",
+   "levels": "Levels", "stars": "Stars", "coins": "Coins", "gems": "Gems", "time": "Play time", "sessions": "Sessions",
+   "worlds": "Worlds", "category": "Skill", "played": "Played", "wrong": "Wrong tries", "hints": "Hints", "noPlay": "No games played yet.",
+   "bad": "This explorer's saved data can't be read. Please reset the explorer.",
+   "resetOne": "Reset progress", "resetOneTitle": "Reset {name}'s progress?", "resetOneBody": "This erases levels, stars, coins, gems and awards for this explorer. It cannot be undone.", "resetOneYes": "Reset progress",
+   "remove": "Remove explorer", "removeTitle": "Remove {name}?", "removeBody": "This deletes the explorer and all of their progress, and frees up a place for another explorer.", "removeYes": "Remove explorer",
+   "settings": "Settings", "analytics": "Anonymous usage counts",
+   "analyticsHelp": "Sends anonymous, cookie-free counts such as levels completed. No names or device details. Switch off any time.",
+   "analyticsOff": "Usage counts are not turned on for this game.",
+   "eraseAll": "Erase all game data on this device", "eraseTitle": "Erase everything?", "eraseBody": "This deletes every explorer and all saved data in this browser. It cannot be undone.", "eraseYes": "Erase everything",
+   "done": "Done."
+  }
+ },
+ "games": {
+  "missing": "missing", "mapAria": "A small map. North is at the top.", "roseN": "N ↑", "roseFullN": "N",
+  "orderSlots": "Your order", "slot": "Letter {n}", "watch": "Watch closely...", "yourTurn": "Your turn! Tap the same order.", "watchAgain": "Oops! Watch again...",
+  "found": "Found {n} of {total}", "differencesFound": "Found {n} of {total} differences", "pictureOne": "Picture 1", "pictureTwo": "Picture 2 (tap here)",
+  "mazeAria": "Maze. Use the arrow buttons or arrow keys to move.", "mazeCell": "Maze square", "dpad": "Move", "compassAria": "Compass map. Tap where you end up.", "cellAria": "Column {x}, row {y}"
+ },
+ "engines": {
+  "number": { "name": "Number Challenge", "category": "Maths", "how": "Tap the right answer." },
+  "word-builder": { "name": "Word Builder", "category": "Words", "how": "Tap the letters in order to build the word." },
+  "memory-sequence": { "name": "Memory Sequence", "category": "Memory", "how": "Watch the order, then tap the same order." },
+  "pattern-puzzle": { "name": "Pattern Puzzle", "category": "Patterns and logic", "how": "Work out the pattern and tap the answer." },
+  "object-hunt": { "name": "Object Hunt", "category": "Observation", "how": "Find and tap the hidden things." },
+  "maze-path": { "name": "Maze and Path", "category": "Mazes and directions", "how": "Guide your explorer, or follow the compass directions." },
+  "science-choice": { "name": "Science Choice", "category": "Science and geography", "how": "Answer the question or put things in order." },
+  "spot-difference": { "name": "Spot the Difference", "category": "Observation", "how": "Tap what is different in the second picture." }
+ }
+}

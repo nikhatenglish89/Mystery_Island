@@ -1,0 +1,34 @@
+{
+ "version": 1,
+ "gameName": "Mystery Island",
+ "ageBands": [
+  {
+   "id": "explorer",
+   "name": "Explorer",
+   "ages": "6–7"
+  },
+  {
+   "id": "adventurer",
+   "name": "Adventurer",
+   "ages": "8–9"
+  },
+  {
+   "id": "master",
+   "name": "Master Explorer",
+   "ages": "10–12"
+  }
+ ],
+ "maxProfiles": 3,
+ "nicknameMaxLength": 12,
+ "analytics": {
+  "endpoint": "",
+  "siteId": ""
+ },
+ "audio": {
+  "voiceFiles": false,
+  "voicePath": "assets/audio/voice/en/"
+ },
+ "pwa": {
+  "enabled": false
+ }
+}

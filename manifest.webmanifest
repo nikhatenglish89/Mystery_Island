@@ -1,0 +1,12 @@
+{
+  "name": "Mystery Island",
+  "short_name": "Mystery Island",
+  "description": "A child-friendly adventure game with maths, words, memory and science puzzles.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b6fa4",
+  "theme_color": "#0b6fa4",
+  "icons": [{ "src": "assets/ui/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
