@@ -1,0 +1,46 @@
+{
+ "kiki": {
+  "name": "Kiki",
+  "welcome": [
+   "Squawk! I am Kiki. Welcome, explorer! Let us find the treasure together."
+  ],
+  "tutorial": [
+   "Tap the glowing things to discover a challenge.",
+   "If an answer is wrong, do not worry. You can try again or ask me for a hint.",
+   "Finish levels to earn stars and coins. Finish a whole world to win a map piece!"
+  ],
+  "exploreTap": [
+   "Ooh, nice! But that is not the glowing one.",
+   "Squawk! Keep looking for the sparkle.",
+   "Fun! Now find the glowing thing."
+  ],
+  "correct": [
+   "Squawk! Great job!",
+   "You got it! Well done, explorer!",
+   "Brilliant thinking!",
+   "Yes! Just right!"
+  ],
+  "retry": [
+   "Not quite. Try again, you can do it!",
+   "Nearly! Have another go.",
+   "Good try! Let us try once more."
+  ],
+  "hint": [
+   "Here is a little hint for you!",
+   "Kiki has a tip!"
+  ],
+  "levelComplete": [
+   "You did it! Another level finished!",
+   "What a great explorer you are!"
+  ],
+  "worldComplete": [
+   "You finished the whole world! Here is a map piece!"
+  ],
+  "gameComplete": [
+   "You found the treasure! You are the greatest explorer of Mystery Island!"
+  ],
+  "parentNote": [
+   "Grown-ups only, please!"
+  ]
+ }
+}

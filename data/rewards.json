@@ -1,0 +1,316 @@
+{
+ "version": 1,
+ "avatars": [
+  {
+   "id": "av1",
+   "emoji": "🧑‍🚀"
+  },
+  {
+   "id": "av2",
+   "emoji": "🧒"
+  },
+  {
+   "id": "av3",
+   "emoji": "👧"
+  },
+  {
+   "id": "av4",
+   "emoji": "👦"
+  },
+  {
+   "id": "av5",
+   "emoji": "🧙"
+  },
+  {
+   "id": "av6",
+   "emoji": "🦸"
+  },
+  {
+   "id": "av7",
+   "emoji": "🧜"
+  },
+  {
+   "id": "av8",
+   "emoji": "🥷"
+  }
+ ],
+ "coinsPerLevel": 5,
+ "coinsPerStar": 5,
+ "gemsPerWorld": 5,
+ "gemsForGame": 10,
+ "maxPlaced": 8,
+ "items": [
+  {
+   "id": "hat-top",
+   "name": "Top Hat",
+   "emoji": "🎩",
+   "slot": "outfit",
+   "currency": "coins",
+   "price": 25
+  },
+  {
+   "id": "hat-sun",
+   "name": "Sun Hat",
+   "emoji": "👒",
+   "slot": "outfit",
+   "currency": "coins",
+   "price": 25
+  },
+  {
+   "id": "hat-cap",
+   "name": "Explorer Cap",
+   "emoji": "🧢",
+   "slot": "outfit",
+   "currency": "coins",
+   "price": 20
+  },
+  {
+   "id": "hat-scholar",
+   "name": "Scholar Cap",
+   "emoji": "🎓",
+   "slot": "outfit",
+   "currency": "coins",
+   "price": 30
+  },
+  {
+   "id": "hat-helmet",
+   "name": "Adventure Helmet",
+   "emoji": "🪖",
+   "slot": "outfit",
+   "currency": "coins",
+   "price": 35
+  },
+  {
+   "id": "acc-shades",
+   "name": "Cool Shades",
+   "emoji": "🕶️",
+   "slot": "outfit",
+   "currency": "coins",
+   "price": 30
+  },
+  {
+   "id": "acc-goggles",
+   "name": "Diver Goggles",
+   "emoji": "🥽",
+   "slot": "outfit",
+   "currency": "coins",
+   "price": 40
+  },
+  {
+   "id": "acc-bow",
+   "name": "Lucky Bow",
+   "emoji": "🎀",
+   "slot": "outfit",
+   "currency": "coins",
+   "price": 20
+  },
+  {
+   "id": "acc-scarf",
+   "name": "Warm Scarf",
+   "emoji": "🧣",
+   "slot": "outfit",
+   "currency": "coins",
+   "price": 25
+  },
+  {
+   "id": "acc-star",
+   "name": "Star Badge",
+   "emoji": "⭐",
+   "slot": "outfit",
+   "currency": "coins",
+   "price": 15
+  },
+  {
+   "id": "gem-crown",
+   "name": "Golden Crown",
+   "emoji": "👑",
+   "slot": "outfit",
+   "currency": "gems",
+   "price": 8
+  },
+  {
+   "id": "gem-medal",
+   "name": "Hero Medal",
+   "emoji": "🏅",
+   "slot": "outfit",
+   "currency": "gems",
+   "price": 5
+  },
+  {
+   "id": "gem-pin",
+   "name": "Gem Pin",
+   "emoji": "💎",
+   "slot": "outfit",
+   "currency": "gems",
+   "price": 6
+  },
+  {
+   "id": "gem-wand",
+   "name": "Star Wand",
+   "emoji": "🪄",
+   "slot": "outfit",
+   "currency": "gems",
+   "price": 7
+  },
+  {
+   "id": "tent",
+   "name": "Camp Tent",
+   "emoji": "🏕️",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 40
+  },
+  {
+   "id": "fire",
+   "name": "Campfire",
+   "emoji": "🔥",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 30
+  },
+  {
+   "id": "palm",
+   "name": "Palm Tree",
+   "emoji": "🌴",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 25
+  },
+  {
+   "id": "canoe",
+   "name": "Canoe",
+   "emoji": "🛶",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 45
+  },
+  {
+   "id": "anchor",
+   "name": "Old Anchor",
+   "emoji": "⚓",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 30
+  },
+  {
+   "id": "crab",
+   "name": "Pet Crab",
+   "emoji": "🦀",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 35
+  },
+  {
+   "id": "turtle",
+   "name": "Pet Turtle",
+   "emoji": "🐢",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 40
+  },
+  {
+   "id": "parrot",
+   "name": "Pet Parrot",
+   "emoji": "🦜",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 50
+  },
+  {
+   "id": "lantern",
+   "name": "Lanterns",
+   "emoji": "🏮",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 30
+  },
+  {
+   "id": "kite",
+   "name": "Kite",
+   "emoji": "🪁",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 20
+  },
+  {
+   "id": "mapwall",
+   "name": "Map Wall",
+   "emoji": "🗺️",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 35
+  },
+  {
+   "id": "compass",
+   "name": "Compass Stand",
+   "emoji": "🧭",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 30
+  },
+  {
+   "id": "chair",
+   "name": "Camp Chair",
+   "emoji": "🪑",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 20
+  },
+  {
+   "id": "flowers",
+   "name": "Flowers",
+   "emoji": "🌺",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 15
+  },
+  {
+   "id": "shells",
+   "name": "Shell Collection",
+   "emoji": "🐚",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 20
+  },
+  {
+   "id": "flag",
+   "name": "Pirate Flag",
+   "emoji": "🏴‍☠️",
+   "slot": "decor",
+   "currency": "coins",
+   "price": 40
+  },
+  {
+   "id": "gem-chest",
+   "name": "Treasure Chest",
+   "emoji": "💰",
+   "slot": "decor",
+   "currency": "gems",
+   "price": 6
+  },
+  {
+   "id": "gem-ball",
+   "name": "Crystal Ball",
+   "emoji": "🔮",
+   "slot": "decor",
+   "currency": "gems",
+   "price": 8
+  },
+  {
+   "id": "gem-dragon",
+   "name": "Baby Dragon",
+   "emoji": "🐉",
+   "slot": "decor",
+   "currency": "gems",
+   "price": 10
+  },
+  {
+   "id": "gem-rainbow",
+   "name": "Rainbow",
+   "emoji": "🌈",
+   "slot": "decor",
+   "currency": "gems",
+   "price": 7
+  }
+ ]
+}

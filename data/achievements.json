@@ -1,0 +1,354 @@
+{
+ "version": 1,
+ "achievements": [
+  {
+   "id": "first-steps",
+   "name": "First Steps",
+   "description": "Finish your first level",
+   "emoji": "👣",
+   "gems": 1,
+   "cond": {
+    "type": "levels_completed",
+    "value": 1
+   }
+  },
+  {
+   "id": "getting-started",
+   "name": "Getting Started",
+   "description": "Finish 5 levels",
+   "emoji": "🌱",
+   "gems": 1,
+   "cond": {
+    "type": "levels_completed",
+    "value": 5
+   }
+  },
+  {
+   "id": "explorer",
+   "name": "Explorer",
+   "description": "Finish 10 levels",
+   "emoji": "🧭",
+   "gems": 2,
+   "cond": {
+    "type": "levels_completed",
+    "value": 10
+   }
+  },
+  {
+   "id": "trailblazer",
+   "name": "Trailblazer",
+   "description": "Finish 25 levels",
+   "emoji": "🔥",
+   "gems": 3,
+   "cond": {
+    "type": "levels_completed",
+    "value": 25
+   }
+  },
+  {
+   "id": "island-legend",
+   "name": "Island Legend",
+   "description": "Finish all 50 levels",
+   "emoji": "🏆",
+   "gems": 5,
+   "cond": {
+    "type": "levels_completed",
+    "value": 50
+   }
+  },
+  {
+   "id": "star-collector",
+   "name": "Star Collector",
+   "description": "Collect 10 stars",
+   "emoji": "⭐",
+   "gems": 1,
+   "cond": {
+    "type": "stars_total",
+    "value": 10
+   }
+  },
+  {
+   "id": "star-hoarder",
+   "name": "Star Hoarder",
+   "description": "Collect 50 stars",
+   "emoji": "🌟",
+   "gems": 2,
+   "cond": {
+    "type": "stars_total",
+    "value": 50
+   }
+  },
+  {
+   "id": "star-master",
+   "name": "Star Master",
+   "description": "Collect 100 stars",
+   "emoji": "✨",
+   "gems": 3,
+   "cond": {
+    "type": "stars_total",
+    "value": 100
+   }
+  },
+  {
+   "id": "perfect",
+   "name": "Perfect!",
+   "description": "Get 3 stars on a level",
+   "emoji": "💯",
+   "gems": 1,
+   "cond": {
+    "type": "perfect_levels",
+    "value": 1
+   }
+  },
+  {
+   "id": "flawless-five",
+   "name": "Flawless Five",
+   "description": "Get 3 stars on 5 levels",
+   "emoji": "🎯",
+   "gems": 2,
+   "cond": {
+    "type": "perfect_levels",
+    "value": 5
+   }
+  },
+  {
+   "id": "perfectionist",
+   "name": "Perfectionist",
+   "description": "Get 3 stars on 20 levels",
+   "emoji": "👑",
+   "gems": 3,
+   "cond": {
+    "type": "perfect_levels",
+    "value": 20
+   }
+  },
+  {
+   "id": "beach-boss",
+   "name": "Beach Boss",
+   "description": "Finish Pirate Beach",
+   "emoji": "🏖️",
+   "gems": 2,
+   "cond": {
+    "type": "world_complete",
+    "world": "pb"
+   }
+  },
+  {
+   "id": "jungle-explorer",
+   "name": "Jungle Explorer",
+   "description": "Finish Mystery Jungle",
+   "emoji": "🌴",
+   "gems": 2,
+   "cond": {
+    "type": "world_complete",
+    "world": "mj"
+   }
+  },
+  {
+   "id": "cave-crawler",
+   "name": "Cave Crawler",
+   "description": "Finish Crystal Cave",
+   "emoji": "💎",
+   "gems": 2,
+   "cond": {
+    "type": "world_complete",
+    "world": "cc"
+   }
+  },
+  {
+   "id": "temple-raider",
+   "name": "Temple Raider",
+   "description": "Finish Ancient Temple",
+   "emoji": "🛕",
+   "gems": 2,
+   "cond": {
+    "type": "world_complete",
+    "world": "at"
+   }
+  },
+  {
+   "id": "treasure-finder",
+   "name": "Treasure Finder",
+   "description": "Finish Treasure Island",
+   "emoji": "💰",
+   "gems": 5,
+   "cond": {
+    "type": "world_complete",
+    "world": "ti"
+   }
+  },
+  {
+   "id": "map-maker",
+   "name": "Map Maker",
+   "description": "Collect 2 map pieces",
+   "emoji": "🗺️",
+   "gems": 1,
+   "cond": {
+    "type": "map_pieces",
+    "value": 2
+   }
+  },
+  {
+   "id": "whole-map",
+   "name": "The Whole Map",
+   "description": "Collect all 4 map pieces",
+   "emoji": "🧩",
+   "gems": 3,
+   "cond": {
+    "type": "map_pieces",
+    "value": 4
+   }
+  },
+  {
+   "id": "shopper",
+   "name": "Camp Shopper",
+   "description": "Get your first Camp item",
+   "emoji": "🛍️",
+   "gems": 1,
+   "cond": {
+    "type": "items_owned",
+    "value": 1
+   }
+  },
+  {
+   "id": "designer",
+   "name": "Camp Designer",
+   "description": "Own 5 Camp items",
+   "emoji": "🏕️",
+   "gems": 2,
+   "cond": {
+    "type": "items_owned",
+    "value": 5
+   }
+  },
+  {
+   "id": "fashion",
+   "name": "Fashion Explorer",
+   "description": "Own 12 Camp items",
+   "emoji": "🎩",
+   "gems": 3,
+   "cond": {
+    "type": "items_owned",
+    "value": 12
+   }
+  },
+  {
+   "id": "number-ninja",
+   "name": "Number Ninja",
+   "description": "Play 10 number challenges",
+   "emoji": "🔢",
+   "gems": 1,
+   "cond": {
+    "type": "engine_played",
+    "engine": "number",
+    "value": 10
+   }
+  },
+  {
+   "id": "word-wizard",
+   "name": "Word Wizard",
+   "description": "Play 8 word builders",
+   "emoji": "🔤",
+   "gems": 1,
+   "cond": {
+    "type": "engine_played",
+    "engine": "word-builder",
+    "value": 8
+   }
+  },
+  {
+   "id": "memory-master",
+   "name": "Memory Master",
+   "description": "Play 8 memory games",
+   "emoji": "🧠",
+   "gems": 1,
+   "cond": {
+    "type": "engine_played",
+    "engine": "memory-sequence",
+    "value": 8
+   }
+  },
+  {
+   "id": "pattern-pro",
+   "name": "Pattern Pro",
+   "description": "Play 10 pattern puzzles",
+   "emoji": "🔴",
+   "gems": 1,
+   "cond": {
+    "type": "engine_played",
+    "engine": "pattern-puzzle",
+    "value": 10
+   }
+  },
+  {
+   "id": "sharp-eyes",
+   "name": "Sharp Eyes",
+   "description": "Play 6 spot-the-difference games",
+   "emoji": "👀",
+   "gems": 1,
+   "cond": {
+    "type": "engine_played",
+    "engine": "spot-difference",
+    "value": 6
+   }
+  },
+  {
+   "id": "treasure-hunter",
+   "name": "Treasure Hunter",
+   "description": "Play 6 object hunts",
+   "emoji": "🔍",
+   "gems": 1,
+   "cond": {
+    "type": "engine_played",
+    "engine": "object-hunt",
+    "value": 6
+   }
+  },
+  {
+   "id": "path-finder",
+   "name": "Path Finder",
+   "description": "Play 8 maze and compass games",
+   "emoji": "🧭",
+   "gems": 1,
+   "cond": {
+    "type": "engine_played",
+    "engine": "maze-path",
+    "value": 8
+   }
+  },
+  {
+   "id": "science-whiz",
+   "name": "Science Whiz",
+   "description": "Play 8 science and geography games",
+   "emoji": "🔬",
+   "gems": 1,
+   "cond": {
+    "type": "engine_played",
+    "engine": "science-choice",
+    "value": 8
+   }
+  },
+  {
+   "id": "practice",
+   "name": "Practice Makes Perfect",
+   "description": "Replay levels 3 times",
+   "emoji": "🔁",
+   "gems": 1,
+   "cond": {
+    "type": "replays",
+    "value": 3
+   }
+  },
+  {
+   "id": "rich-pirate",
+   "name": "Rich Pirate",
+   "description": "Earn 500 coins in total",
+   "emoji": "🪙",
+   "gems": 2,
+   "cond": {
+    "type": "coins_earned",
+    "value": 500
+   }
+  }
+ ]
+}
